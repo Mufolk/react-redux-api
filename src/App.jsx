@@ -1,7 +1,12 @@
 import React from "react";
+import Users from "./component/users";
 
 const App = (props) => {
-  return <div>Webpack is cool!</div>;
+  return (
+    <div>
+      <Users />
+    </div>
+  );
 };
 
 export default App;
